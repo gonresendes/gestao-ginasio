@@ -2,6 +2,8 @@
 
 DELIMITER //
 
+DROP PROCEDURE IF EXISTS CalcularTotalInscricoesPorPeriodo //
+
 CREATE PROCEDURE CalcularTotalInscricoesPorPeriodo (
     IN p_DataInicio DATE,
     IN p_DataFim DATE,
