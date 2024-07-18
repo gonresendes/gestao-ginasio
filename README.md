@@ -23,7 +23,7 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
 - Um cliente MySQL (como MySQL Workbench, phpMyAdmin, etc.)
 
 ### Guia de Instalação
-1. Fazer a criação das tabelas a partir da pasta (https://github.com/gonresendes/sistema-gestao-ginasio/create-tables/CREATETABLES.sql);
+1. Fazer a criação das tabelas a partir da pasta [teste](create-tables/CREATETABLES.sql);
 2. Seguir para a pasta inserts para inserir todos os dados nas tabelas;
 3. Fazer as consultas a partir da pasta consultas e fazer as consultas desejadas;
 4. Seguir para a pasta triggers e fazer a sua ativação;
