@@ -48,16 +48,16 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
 
 Membros
 
-    ID: INT AUTO_INCREMENT PRIMARY KEY
-    Nome: VARCHAR(100) NOT NULL
-    DataNascimento: DATE NOT NULL
-    TipoMembro: VARCHAR(50) NOT NULL
+-   ID: INT AUTO_INCREMENT PRIMARY KEY
+-   Nome: VARCHAR(100) NOT NULL
+-   DataNascimento: DATE NOT NULL
+-   TipoMembro: VARCHAR(50) NOT NULL
 
 Treinadores
 
-    ID: INT AUTO_INCREMENT PRIMARY KEY
-    Nome: VARCHAR(100) NOT NULL
-    Especialidade: VARCHAR(100) NOT NULL
+-   ID: INT AUTO_INCREMENT PRIMARY KEY
+-   Nome: VARCHAR(100) NOT NULL
+-   Especialidade: VARCHAR(100) NOT NULL
 
 Aulas
 
