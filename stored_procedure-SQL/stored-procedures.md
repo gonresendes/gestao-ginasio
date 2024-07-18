@@ -1,4 +1,4 @@
-# Store-Procedures
+# Stored-Procedures
 
 ## Stored Procedure para calcular o total de incrições num determinado período
 ```sql
@@ -26,7 +26,7 @@ SET @total := 0;
 CALL CalcularTotalInscricoesPorPeriodo('2024-01-01', '2024-12-31', @total);
 SELECT @total AS TotalInscricoes;
 ```
-## Store procedure para registar uma nova inscrição
+## Stored procedure para registar uma nova inscrição
 ```sql
 DELIMITER //
 
@@ -64,7 +64,7 @@ DELIMITER ;
 CALL RegistrarInscricao(4, 1, '2024-07-21');
 SELECT * FROM Inscricoes;
 ```
-## Store Procedure para atualizar os dados de um membro
+## Stored Procedure para atualizar os dados de um membro
 ```sql
 DELIMITER //
 
