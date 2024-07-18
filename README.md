@@ -23,12 +23,12 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
 - Um cliente MySQL (como MySQL Workbench, phpMyAdmin, etc.)
 
 ### Guia de Instalação
-1. Fazer a criação das tabelas a partir do ficheiro [CREATETABLES.sql](create-tables/CREATETABLES.sql);
-2. Seguir para o ficheiro [INSERTS.sql](inserts/INSERTS.sql) para inserir todos os dados nas tabelas;
+1. Fazer a criação das tabelas a partir do ficheiro [createtables.sql](create-tables/createtables.sql);
+2. Seguir para o ficheiro [inserts.sql](inserts/inserts.sql) para inserir todos os dados nas tabelas;
 3. Fazer as consultas a partir da pasta [consultas](consultas/) e fazer as consultas desejadas;
-4. Seguir para a pasta triggers e fazer a sua ativação;
-5. Ir á pasta stored_procedures e correr os desejados para com as modificações desejadas;
-6. Criar um relatório a partir da pasta cursores.
+4. Seguir para o ficheiro [triggers.sql](triggers/triggers.sql) e fazer a sua ativação;
+5. Ir á pasta [stored-procedures](stored-procedures/) e correr os desejados para com as modificações desejadas;
+6. Criar um relatório a partir do ficheiros [cursor.sql](cursores/cursor.sql).
 
 ## Estrutura da Base de Dados
 ### Tabelas
