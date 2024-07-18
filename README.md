@@ -12,7 +12,6 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
 - `triggers.sql`: Script SQL contendo os triggers.
 - `README.md`: Documentação detalhada do projeto.
 
-## Configuração e Instalação
 
 ### Pré-requisitos
 
