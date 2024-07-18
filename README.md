@@ -7,10 +7,13 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
 
 ## Estrutura do Projeto
 
-- `schema.sql`: Script SQL para criar as tabelas e triggers.
-- `data.sql`: Script SQL para inserir dados iniciais nas tabelas.
-- `triggers.sql`: Script SQL contendo os triggers.
-- `README.md`: Documentação detalhada do projeto.
+- `DATA`: Script SQL com todos os ficheiros necessários para a criação deste projeto com os dados inseridos.
+- `create-tables`: Script SQL para criar as tabelas.
+- `inserts`: Script SQL para inserir os dados nas tabelas.
+- `triggers`: Script SQL contendo os triggers deste projeto.
+- `consultas`: Scripts SQL contendo algumas consultas informativas dos dados.
+- `stored-procedures`: Scripts SQL contendo algumas funções para desempenhar dentro da base de dados.
+- `cursores`: Script SQL para gerar um relatório que lista todas as aulas e a quantidade de inscrições em cada uma num determinado período.
 
 
 ### Pré-requisitos
