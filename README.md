@@ -1,6 +1,7 @@
 # Sistema de Gestão de Ginásio
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/e61a6536-315c-4b73-9d6b-7d147dbf0b14)
+
 
 
 ## Descrição
