@@ -2,6 +2,8 @@
 
 DELIMITER //
 
+DROP PROCEDURE IF EXISTS AtualizarMembro //
+
 CREATE PROCEDURE AtualizarMembro (
     IN p_MembroID INT,
     IN p_NovoNome VARCHAR(100),
@@ -9,7 +11,6 @@ CREATE PROCEDURE AtualizarMembro (
     IN p_NovoTipoMembro VARCHAR(50)
 )
 BEGIN
-    -- Atualiza os dados do membro
     UPDATE Membros
     SET Nome = p_NovoNome,
         DataNascimento = p_NovaDataNascimento,
@@ -21,6 +22,6 @@ END;
 
 DELIMITER ;
 
-CALL AtualizarMembro(1, 'Jonny', '1995-05-05', 'Premium');
+CALL AtualizarMembro(4, 'Gonçalo Resendes', '2005-04-19', 'Black');
 
 SELECT * FROM Membros;
