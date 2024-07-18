@@ -3,7 +3,7 @@
 
 Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinadores, aulas e inscrições. Inclui a criação de tabelas e triggers para assegurar a integridade dos dados e impor regras de negócio específicas.
 
-![image](https://github.com/user-attachments/assets/da0c02ee-cd81-4607-b05a-1bf963469c43) ER DIAGRAM
+![image](https://github.com/user-attachments/assets/da0c02ee-cd81-4607-b05a-1bf963469c43)
 
 ## Estrutura do Projeto
 
