@@ -61,19 +61,19 @@ Treinadores
 
 Aulas
 
-    ID: INT AUTO_INCREMENT PRIMARY KEY
-    Nome: VARCHAR(100) NOT NULL
-    TreinadorID: INT NOT NULL (Foreign Key referenciando Treinadores.ID)
-    DataHora: DATETIME NOT NULL
-    Duracao: INT NOT NULL
-    Estado: VARCHAR(20) DEFAULT 'Disponível'
+-   ID: INT AUTO_INCREMENT PRIMARY KEY
+-   Nome: VARCHAR(100) NOT NULL
+-   TreinadorID: INT NOT NULL (Foreign Key referenciando Treinadores.ID)
+-   DataHora: DATETIME NOT NULL
+-   Duracao: INT NOT NULL
+-   Estado: VARCHAR(20) DEFAULT 'Disponível'
 
 Inscricoes
 
-    ID: INT AUTO_INCREMENT PRIMARY KEY
-    MembroID: INT NOT NULL (Foreign Key referenciando Membros.ID)
-    AulaID: INT NOT NULL (Foreign Key referenciando Aulas.ID)
-    DataIncricao: DATE NOT NULL
+-   ID: INT AUTO_INCREMENT PRIMARY KEY
+-   MembroID: INT NOT NULL (Foreign Key referenciando Membros.ID)
+-   AulaID: INT NOT NULL (Foreign Key referenciando Aulas.ID)
+-   DataIncricao: DATE NOT NULL
 
 Triggers
 AtualizarEstadoAula
