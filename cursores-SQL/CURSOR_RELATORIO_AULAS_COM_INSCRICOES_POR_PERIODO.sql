@@ -1,5 +1,7 @@
 DELIMITER //
 
+DROP PROCEDURE IF EXISTS RelatorioAulasComInscricoesPorPeriodo //
+
 CREATE PROCEDURE RelatorioAulasComInscricoesPorPeriodo (
     IN p_DataInicio DATE,
     IN p_DataFim DATE
