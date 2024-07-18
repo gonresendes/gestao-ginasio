@@ -24,8 +24,8 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
 
 ### Guia de Instalação
 1. Fazer a criação das tabelas a partir do ficheiro [CREATETABLES.sql](create-tables/CREATETABLES.sql);
-2. Seguir para a pasta inserts para inserir todos os dados nas tabelas;
-3. Fazer as consultas a partir da pasta consultas e fazer as consultas desejadas;
+2. Seguir para o ficheiro [INSERTS.sql](inserts/INSERTS.sql) para inserir todos os dados nas tabelas;
+3. Fazer as consultas a partir da pasta [consultas](consultas/) e fazer as consultas desejadas;
 4. Seguir para a pasta triggers e fazer a sua ativação;
 5. Ir á pasta stored_procedures e correr os desejados para com as modificações desejadas;
 6. Criar um relatório a partir da pasta cursores.
