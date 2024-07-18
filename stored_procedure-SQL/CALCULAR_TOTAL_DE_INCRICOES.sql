@@ -8,7 +8,6 @@ CREATE PROCEDURE CalcularTotalInscricoesPorPeriodo (
     OUT p_TotalInscricoes INT
 )
 BEGIN
-    -- Calcula o total de inscrições no período especificado
     SELECT COUNT(*)
     INTO p_TotalInscricoes
     FROM Inscricoes
