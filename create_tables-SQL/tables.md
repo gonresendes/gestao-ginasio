@@ -31,7 +31,7 @@ CREATE TABLE Aulas (
     FOREIGN KEY (TreinadorID) REFERENCES Treinadores(ID)
 );
 ```
-## Incricoes
+## Inscrições
 
 ```sql
 CREATE TABLE Inscricoes (
