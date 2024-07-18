@@ -6,6 +6,7 @@
 INSERT INTO Membros (Nome, DataNascimento, TipoMembro) VALUES 
 ('Afonso Pinheiro', '2005-03-16', 'Gold'),
 ('Daniel Pimentel', '2004-08-23', 'Black'),
+('Franciso Simas', '2005-03-23', 'Black'),
 ('Gonçalo Resendes', '2005-04-19', 'Gold'),
 ('Henrique Pereira', '2004-02-26', 'Black'),
 ('José Freitas', '2000-10-12', 'Black'),
