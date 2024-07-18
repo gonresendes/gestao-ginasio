@@ -4,13 +4,14 @@
 ```sql
 DELIMITER //
 
+DROP PROCEDURE IF EXISTS CalcularTotalInscricoesPorPeriodo //
+
 CREATE PROCEDURE CalcularTotalInscricoesPorPeriodo (
     IN p_DataInicio DATE,
     IN p_DataFim DATE,
     OUT p_TotalInscricoes INT
 )
 BEGIN
-    -- Calcula o total de inscrições no período especificado
     SELECT COUNT(*)
     INTO p_TotalInscricoes
     FROM Inscricoes
@@ -25,7 +26,7 @@ SET @total := 0;
 CALL CalcularTotalInscricoesPorPeriodo('2024-01-01', '2024-12-31', @total);
 SELECT @total AS TotalInscricoes;
 ```
-## Store procedure para registar uma nova incrição
+## Store procedure para registar uma nova inscrição
 ```sql
 DELIMITER //
 
@@ -60,12 +61,14 @@ END;
 DELIMITER ;
 
 
-CALL RegistrarInscricao(1, 1, '2024-07-20');
+CALL RegistrarInscricao(4, 1, '2024-07-21');
 SELECT * FROM Inscricoes;
 ```
 ## Store Procedure para atualizar os dados de um membro
 ```sql
 DELIMITER //
+
+DROP PROCEDURE IF EXISTS AtualizarMembro //
 
 CREATE PROCEDURE AtualizarMembro (
     IN p_MembroID INT,
@@ -74,7 +77,6 @@ CREATE PROCEDURE AtualizarMembro (
     IN p_NovoTipoMembro VARCHAR(50)
 )
 BEGIN
-    -- Atualiza os dados do membro
     UPDATE Membros
     SET Nome = p_NovoNome,
         DataNascimento = p_NovaDataNascimento,
@@ -86,7 +88,7 @@ END;
 
 DELIMITER ;
 
-CALL AtualizarMembro(1, 'Jonny', '1995-05-05', 'Premium');
+CALL AtualizarMembro(4, 'Gonçalo Resendes', '2005-04-19', 'Black');
 
 SELECT * FROM Membros;
 ```
