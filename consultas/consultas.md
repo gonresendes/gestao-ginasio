@@ -30,4 +30,4 @@ WHERE T.Nome = 'José Daniel';
 SELECT * FROM Aulas
 WHERE DataHora > '2024-07-20 00:00:00' AND DataHora < '2024-07-22 23:59:59'
 AND Estado = 'Disponível';
-``
+```
