@@ -1,5 +1,8 @@
 # Sistema de Gestão de Ginásio
 
+![Uploading image.png…]()
+
+
 ## Descrição
 
 Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinadores, aulas e inscrições. Inclui a criação de tabelas e triggers para assegurar a integridade dos dados e impor regras de negócio específicas.
