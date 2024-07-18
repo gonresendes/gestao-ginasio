@@ -27,21 +27,21 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
    ```bash
    git clone https://github.com/seu-usuario/sistema-gestao-ginasio.git
    cd sistema-gestao-ginasio
-  ´´´
+  ```
 
 2. Crie a Base de Dados:
    ```
    CREATE DATABASE GINASIO;
    USE GINASIO;
-   ´´´
+   ```
 3. Execute o script de criação de tabelas e triggers:
      ```
      SOURCE schema.sql;
-     ´´´
+     ```
 4. Insira os dados inciais:
      ```
      SOURCE data.sql
-     ´´´
+     ```
 
 ## Estrutura da Base de Dados
 ### Tabelas
