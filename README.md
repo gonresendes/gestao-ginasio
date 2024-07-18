@@ -1,5 +1,3 @@
-# gestao-ginasio
-
 # Sistema de Gestão de Ginásio
 
 ## Descrição
@@ -67,6 +65,7 @@ Aulas
 -   DataHora: DATETIME NOT NULL
 -   Duracao: INT NOT NULL
 -   Estado: VARCHAR(20) DEFAULT 'Disponível'
+-   Capacidade INT NOT NULL
 
 Inscricoes
 
@@ -78,11 +77,13 @@ Inscricoes
 Triggers
 AtualizarEstadoAula
 
-Atualiza o estado da aula para 'Cheio' quando o número de inscrições atinge 10.
+- Atualiza o estado da aula para 'Cheio' quando o número de inscrições atinge 10.
+
 ImpedirInscricaoDuplicada
 
-Impede a inscrição de um membro em uma aula se ele já estiver inscrito.
+- Impede a inscrição de um membro em uma aula se ele já estiver inscrito.
+
 ImpedirInscricaoCheia
 
-Impede novas inscrições em uma aula que já está cheia (10 inscrições).
+- Impede novas inscrições em uma aula que já está cheia (10 inscrições).
 
