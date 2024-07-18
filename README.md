@@ -27,7 +27,7 @@ Este projeto é um Sistema de Gestão de Ginásio que gerencia membros, treinado
    ```bash
    git clone https://github.com/seu-usuario/sistema-gestao-ginasio.git
    cd sistema-gestao-ginasio
-  ```
+     ```
 
 2. Crie a Base de Dados:
    ```
