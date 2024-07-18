@@ -33,5 +33,5 @@ END;
 DELIMITER ;
 
 
-CALL RegistrarInscricao(1, 1, '2024-07-20');
+CALL RegistrarInscricao(4, 1, '2024-07-21');
 SELECT * FROM Inscricoes;
